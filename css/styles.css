@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 6rem;
+  font-family: 'Dancing Script', cursive;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  color: #11999E;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+    line-height: 2;
+}
+
+.top-container {
+  padding: 10px;
+  background-color: #eeeded;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.images {
+  width: 10rem;
+  height: 10rem;
+padding: 30px;
+}
+
+.yoga {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.game {
+  width: 20%;
+  float: right;
+  margin-right: 30px;
+}
+
+.program {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+a {
+  color: #11999E;
+    font-family: 'Nunito', sans-serif;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+a:hover{
+  color: #66BFBF;
+}
+.copyright{
+  color: darkgray;
+  padding: 10px 0;
+}
+.middle-container{
+  padding: 100px 0 50px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.bottom-container {
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+hr {
+  border-style: dotted;
+  border-color: #456268;
+  border-width: 6px;
+  border-bottom: none;
+  width: 2%;
+  margin: 100px auto;
+}
+.contact{
+  width: 40%;
+  margin: 40px auto;
+}
+
+.btn {
+  background: #208cd4;
+  background-image: -webkit-linear-gradient(top, #208cd4, #79a4bf);
+  background-image: -moz-linear-gradient(top, #208cd4, #79a4bf);
+  background-image: -ms-linear-gradient(top, #208cd4, #79a4bf);
+  background-image: -o-linear-gradient(top, #208cd4, #79a4bf);
+  background-image: linear-gradient(to bottom, #208cd4, #79a4bf);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #21dede;
+  background-image: -webkit-linear-gradient(top, #21dede, #7ec7c3);
+  background-image: -moz-linear-gradient(top, #21dede, #7ec7c3);
+  background-image: -ms-linear-gradient(top, #21dede, #7ec7c3);
+  background-image: -o-linear-gradient(top, #21dede, #7ec7c3);
+  background-image: linear-gradient(to bottom, #21dede, #7ec7c3);
+  text-decoration: none;
+}
